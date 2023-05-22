@@ -1,0 +1,44 @@
+h1,
+h2,
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    width: 50%;
+    border-radius: 25px;
+}
+.menu {
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+    font-weight: bolder;
+}
+#wiki{
+    color: red;
+}
+nav .menu
+{
+    color: violet;
+}
+nav .menu:hover{
+    text-decoration: underline;
+    color: violet;
+}
+
+p::first-letter{
+    color: red;
+}
+#logo{
+    width: 100px;
+    position: absolute;
+    right: 50px;
+    top: 60px;
+    padding: 5px;
+    border: 1px solid black;
+    opacity: o.5;
+    box-shadow: 0 0 10px black;
+}
+#companyname{
+    padding: 10px;
+    margin: 20px;
+}
